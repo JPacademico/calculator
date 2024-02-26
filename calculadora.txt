@@ -1,0 +1,56 @@
+//Console.WriteLine("escolha 1 a 4: 1-soma // 2-diminuição // 3-multiplicação // 4-divisão // 0-finalizar");
+
+//int opcao = Convert.ToInt32(Console.ReadLine());
+//double num1,num2;
+//bool repeat = true;
+
+//while (repeat == true)
+//{
+//    switch (opcao)
+//    {
+//        case 1:
+//            Console.WriteLine("digite o primeiro numero");
+//            num1 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine("digite o segundo numero");
+//            num2 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine($"sua soma foi: {num1 + num2}");
+//            break;
+//        case 2:
+//            Console.WriteLine("digite o primeiro numero");
+//            num1 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine("digite o segundo numero");
+//            num2 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine($"sua subtração foi: {num1 - num2}");
+//            break;
+//        case 3:
+//            Console.WriteLine("digite o primeiro numero");
+//            num1 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine("digite o segundo numero");
+//            num2 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine($"sua multiplicação foi: {num1 * num2}");
+//            break;
+//        case 4:
+//            Console.WriteLine("digite o primeiro numero");
+//            num1 = Convert.ToDouble(Console.ReadLine());
+//            Console.WriteLine("digite o segundo numero");
+//            num2 = Convert.ToDouble(Console.ReadLine());
+//            if (num2 == 0)
+//            {
+//                Console.WriteLine("O denominador não pode ser 0 visto que divisão por nulo é impossível");
+//            }
+//            else
+//            {
+//                Console.WriteLine($"sua divisão foi: {num1 / num2}");
+//            }
+//            break;
+//        case 0:
+//            Console.WriteLine("finalizado");
+//            repeat = false;
+//            break;
+
+//        default:
+//            Console.WriteLine("digite certo!");
+//            break;
+//    }
+
+//}
